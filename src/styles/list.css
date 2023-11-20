@@ -1,0 +1,57 @@
+
+    
+.principal-container {
+    width: 60rem;
+    margin-top: 4rem;
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+}
+
+.span-list {
+   align-content: end;
+   margin-left: 45rem;
+   margin-bottom: 1rem;
+}
+
+ul li {
+    display: flex;
+  justify-content: space-between;
+  border: 0.5px solid;
+  padding: 1rem;
+ 
+}
+.list-button__container {
+margin-right: 2rem;
+
+}
+
+.boton__delete {
+  border: none;
+  background-color: white;
+  margin-left: 1rem;
+}
+.span-edit {
+  color: black;
+}
+.lista_img {
+border-radius: 100%;
+
+width: 130px;
+height: 130px;
+margin-left: 1rem;
+}
+.list-container {
+  margin-right: 10rem;
+  gap: 1rem;
+}
+p {
+  color: gray;
+}
+h5 {
+  color: gray;
+}
+img {
+  border-radius: 100%;
+}

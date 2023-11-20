@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color:black
+}
+.addcontact-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60rem;
+    background-color: white;
+    padding: 2rem;
+    
+}
+h1 {
+    text-align: center;
+}
+label {
+    margin: 10px;
+}
+input {
+   margin-left: 1rem;
+}
+.addcontact-button {
+    margin-left: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.span-contact {
+    margin-left: 1rem;
+}
