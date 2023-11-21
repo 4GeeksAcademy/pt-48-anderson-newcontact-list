@@ -13,18 +13,13 @@ const AddContact = () => {
 
    
     const addContact = () => {
-      const newContact= {
-        fullname,
-        newphone,
-        newaddress,
-        newemail
-      };
-
-      actions.addContact(newContact);
+     
+      actions.addContact({id: Date.now(), fullname, newphone, newaddress, newemail});
       setFullname('');
       setNewPhone('');
       setNewAddress('');
       setNewEmail('');
+      
     }
 
     return(<>

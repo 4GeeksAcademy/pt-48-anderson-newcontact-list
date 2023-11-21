@@ -9,11 +9,18 @@ const getState = ({ getStore, getActions, setStore }) => {
 				const contactList = [...store.contactList, contact];
 				setStore ({...store, contactList});
 			},
-			deleteContact: (index) => {
+			actContactList: (contactList) => {
+				const store = getStore();
+				
+				setStore ({...store, contactList});
+
+			},
+			deleteContact: (id) => {
                 const store = getStore();
-                const updatedContactList = store.contactList.filter((_, i) => i !== index);
-                setStore({ ...store, contactList: updatedContactList });
-            },
+                const contactList = store.contactList.filter(contact => contact.id !== id);
+                setStore({ ...store, contactList});
+            }
+			
 		}
 	};
 };
